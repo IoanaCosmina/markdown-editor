@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 body {
-  background: #F2D7EE;
-  color: #1F0318;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  background: #f2d7ee;
+  color: #1f0318;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
 .app {
@@ -13,7 +13,7 @@ body {
 }
 
 textarea {
-  background: #FDECEF;
+  background: #fdecef;
   box-shadow: 0 1px 10px 0 rgba(200, 173, 192, 1);
   outline: none;
   border: none;
@@ -23,5 +23,34 @@ textarea {
 }
 
 .preview {
-  padding: 20px 20px 0 20px;
+  padding: 0 20px;
+}
+
+blockquote {
+  font-size: 30px;
+  background: #ffffff;
+  border-left: 12px solid rgb(117, 13, 55);
+  border-radius: 5px;
+  padding: 5px 10px 0 30px;
+  margin: 0;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+tr {
+  border-top: 1px solid #1f0318;
+  background: #ffffff;
+}
+
+th,
+td {
+  padding: 6px 13px;
+  border: 1px solid #1f0318;
 }
